@@ -65,6 +65,17 @@ a:hover {
 iframe {
   margin-left: 3rem;
 }
+/* horror page */
+table {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(75, 0, 90);
+}
 /* form */
 
 #feedback-page {
