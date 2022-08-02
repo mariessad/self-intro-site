@@ -8,15 +8,21 @@ body {
 }
 
 nav {
-  background-color: rgb(196, 79, 255);
+  background-image: linear-gradient(
+    to right,
+    rgb(196, 79, 255),
+    rgb(196, 0, 75)
+  );
+
   height: 70px;
   margin-bottom: 2.5rem;
 }
 
 nav > ul {
   display: flex;
-  padding: 1.5rem;
+  padding: 1rem;
   list-style: none;
+  font-size: larger;
 }
 
 ul > li {
@@ -26,23 +32,36 @@ ul > li {
 h1 {
   margin-left: 3rem;
   text-decoration: underline;
-  color: #a0007d;
+  color: rgb(196, 0, 75);
   font-size: 40px;
+  font-family: "Lobster", cursive;
 }
 h2 {
   margin-left: 3rem;
   text-decoration: underline;
   color: rgb(73, 0, 95);
   font-size: xx-large;
+  font-family: "Lobster", cursive;
 }
 h3 {
   margin-left: 3rem;
   margin-top: 1rem;
+  width: 500px;
+}
+.img-main {
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.spacer {
+  height: 200px;
 }
 /* nature page */
 .img-butterfly {
   border-radius: 10px;
-  width: 500px;
+  width: 400px;
   margin-top: 3rem;
   margin-left: 3rem;
   margin-bottom: 1rem;
@@ -57,6 +76,7 @@ a {
   display: block;
   font-weight: bold;
   margin-top: 10px;
+  font-family: "Lobster", cursive;
 }
 a:hover {
   color: white;
@@ -74,13 +94,21 @@ table {
 table,
 th,
 td {
-  border: 2px solid rgb(75, 0, 90);
+  height: auto;
+}
+th {
+  color: white;
+  border: 2px solid rgb(196, 0, 75);
+}
+table {
+  width: 500px;
+  border: 2px solid rgb(196, 0, 75);
+}
+#thing {
+  margin-left: 3rem;
+  margin-top: 0;
 }
 /* form */
-
-#feedback-page {
-  text-align: center;
-}
 
 #form-main {
   width: 100%;
@@ -96,12 +124,11 @@ td {
   padding-bottom: 50px;
   width: 450px;
   float: left;
-  left: 50%;
+  left: 30%;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+  border-radius: 10px;
 }
 
 .feedback-input {
@@ -125,15 +152,15 @@ td {
 .feedback-input:focus {
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #3498db;
-  color: #3498db;
+  border: 3px solid rgb(196, 79, 255);
+  color: rgb(196, 79, 255);
   outline: none;
   padding: 13px 13px 13px 54px;
 }
 
 .focused {
-  color: #30aed6;
-  border: #30aed6 solid 3px;
+  color: rgb(196, 79, 255);
+  border: rgb(196, 79, 255) solid 3px;
 }
 
 textarea {
@@ -163,7 +190,7 @@ span {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: rgb(196, 79, 255);
   color: white;
   font-size: 24px;
   padding-top: 22px;
@@ -175,11 +202,11 @@ span {
 
 #button-blue:hover {
   background-color: rgba(0, 0, 0, 0);
-  color: #0493bd;
+  color: rgb(196, 79, 255);
 }
 
 .submit:hover {
-  color: #3498db;
+  color: rgb(196, 79, 255);
 }
 
 .ease {
