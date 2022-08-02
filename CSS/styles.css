@@ -20,13 +20,41 @@ nav > ul {
 
 ul > li {
   margin-left: 1rem;
+  color: white;
+}
+h2 {
+  margin-left: 3rem;
+  text-decoration: underline;
+  color: rgb(73, 0, 95);
+  font-size: xx-large;
 }
 /* nature page */
 .img-butterfly {
   border-radius: 10px;
   width: 40%;
   margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
 }
+.p-1 {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  width: 500px;
+  font-size: large;
+}
+a {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+a:hover {
+  color: white;
+  font-weight: bolder;
+}
+iframe {
+  margin-left: 3rem;
+}
+
 /* sushi animation */
 .content {
   position: absolute;
