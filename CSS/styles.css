@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(233, 125, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -95,18 +96,22 @@ table,
 th,
 td {
   height: auto;
+  padding: 5px;
 }
 th {
   color: white;
   border: 2px solid rgb(196, 0, 75);
+  border-radius: 10px;
 }
 table {
   width: 500px;
   border: 2px solid rgb(196, 0, 75);
+  border-radius: 10px;
 }
 #thing {
   margin-left: 3rem;
   margin-top: 0;
+  width: 500px;
 }
 /* form */
 
